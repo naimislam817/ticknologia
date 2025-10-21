@@ -6,6 +6,7 @@ import Cart from './Pages/Cart.jsx'
 import Home from './Pages/Home.jsx'
 import Signup from './Components/Signup/Signup.jsx'
 import Contactus from './Pages/Contactus.jsx'
+import Footer from './Components/Footer/Footer.jsx'
 const App = () => {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Contactus" element={<Contactus />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }

@@ -1,0 +1,106 @@
+.fi {
+     width: 200px;
+    height: 100px;
+    margin-left: 3px;
+    background-color: rgb(131, 140, 170);
+    margin-top: 4vh;
+}
+.footer  {
+    background-color: rgb(131, 140, 170);
+    height: 50vh;
+    display: flex;
+
+}
+.footerimg{
+    width: 450px;
+    height: 300px;
+    margin-left: 25vh;
+    background-color: transparent;
+        
+    margin-top: 5vh;
+}
+.footerpara {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    margin-left: 3px;
+    margin-top: 2vh;
+}
+.Socialmedia {
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   
+}
+.social {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    margin-left: 3px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+   
+}
+.ftbt {
+    
+    margin-top: 5vh;
+    color: white;
+}
+.Support{
+    border: 1px solid black;
+    width: 450px;
+    height: 300px;
+    color: white;
+    margin-left: 10vh;
+    margin-top: 8vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+
+    
+}
+.supportpara {
+    font-size: 16px;
+    margin-top: 2vh;
+    padding: 5px;
+}
+.Support2{
+   border: 1px solid black;
+    width: 450px;
+    height: 300px;
+    color: white;
+    margin-left: 10vh;
+    margin-top: 8vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    
+  
+}
+.Support2 p{
+    font-size: 16px;
+    margin-top: 2vh;
+    padding: 5px;
+    
+}
+.lgbtn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    margin-left: 3px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+.arrowbtn {
+    background-color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+
+}
+.inputemail{
+    width: 250px;
+    height: 40px;
+    border: none;
+    padding: 10px;
+}
