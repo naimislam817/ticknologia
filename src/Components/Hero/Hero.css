@@ -1,0 +1,31 @@
+.bg-pic{
+    width: 209vh;
+    height: 85vh;
+    
+    margin-top: 2vh;
+    margin-left: 1vh;
+    
+}
+img{
+    width: 208vh;
+    height: 84vh;
+    object-fit: cover;
+}
+.buttonhero{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    margin-left: -50vh;
+    height: 50px;
+    width: 150px;
+    background-color: #664646;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    
+}
+.buttonhero:hover{
+    background-color: #2b5fbe;
+    cursor: pointer;
+    color: rgb(135, 140, 187);
+}

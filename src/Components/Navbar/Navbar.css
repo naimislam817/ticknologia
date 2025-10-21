@@ -1,0 +1,45 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+.headerimage {
+    width: 150px;
+    height: 100px;
+    margin-left: 25vh;
+    background-color: transparent;
+}
+
+.navbar {
+    background-color: rgba(234, 243, 245, 0.185);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.HomeMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 35vh;
+    gap: 15vh;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.HomeMenu a {
+    text-decoration: none;
+    color: black;
+    
+}
+.item {
+    display: flex;
+    margin-left: 40vh;
+    
+}
+.searchbar, .userlogo, .cartlogo {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
