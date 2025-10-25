@@ -6,6 +6,7 @@ import { FaCartPlus } from "react-icons/fa";
 import Cart from "../../Pages/Cart";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import ProductPage from "../../Pages/ProductPage.jsx";
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -16,7 +17,9 @@ const Navbar = () => {
         <Link to="/">
           <a href="">Home</a>
         </Link>
+         <Link to="/ProductPage">
         <a href="">Products</a>
+        </Link>
         <Link to="/Contactus">
         <a href="">Contact Us</a>
           

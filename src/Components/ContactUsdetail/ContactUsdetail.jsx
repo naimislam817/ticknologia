@@ -28,7 +28,7 @@ function ContactUsdetail() {
 
     setStatus("Message sent (demo).");
     console.log("Contact form data:", form);
-    setForm({ name: "", email: "", subject: "", message: "" });
+    setForm({ name: "", email: "", subject: "", message: "" })
 
     // clear status after short delay
     setTimeout(() => setStatus(""), 3000);
