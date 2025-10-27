@@ -1,5 +1,5 @@
 import React from "react";
-import picture from "../../assets/brandname.jpg";
+import picture from "../../assets/brandname.png";
 import { FaSearch } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
 import { FaCartPlus } from "react-icons/fa";
