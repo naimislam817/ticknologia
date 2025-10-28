@@ -9,6 +9,7 @@ import Contactus from './Pages/Contactus.jsx'
 import Footer from './Components/Footer/Footer.jsx'
 import Product from './Components/ProductPage/ProductPage.jsx'
 import ProductPage from './Pages/ProductPage.jsx'
+import ProductDetails from './Components/ProductDeatils/ProductOne/ProductOne.jsx'
 const App = () => {
   return (
     <BrowserRouter>
@@ -19,6 +20,8 @@ const App = () => {
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Contactus" element={<Contactus />} />
         <Route path="/ProductPage" element={<ProductPage />} />
+        <Route path="/ProductDetails/:id" element={<ProductDetails />} /> {/* ✅ proper route */}
+
       </Routes>
       <Footer/>
     </BrowserRouter>

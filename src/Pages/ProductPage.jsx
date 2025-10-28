@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import picture from "../assets/producthomebanner.png";
 import "./ProductPage.css";
 import { FaSearch, FaStar, FaCartPlus } from "react-icons/fa";
-
+import { useNavigate } from "react-router-dom";
+import ProductGallery from "../Components/ProductDeatils/ProductOne/ProductOne.jsx";
 // Product images
 import Product1 from "../assets/1.jpeg";
 import Product2 from "../assets/2.jpeg";
@@ -27,14 +28,11 @@ const products = [
 ];
 
 function ProductPage() {
+  const navigate = useNavigate();
   const [search, setSearch] = useState("");
 
-  // Update search text when typing
-  const handleOnChange = (e) => {
-    setSearch(e.target.value);
-  };
+  const handleOnChange = (e) => setSearch(e.target.value);
 
-  // Filter the products by search text
   const filteredProducts = products.filter((product) =>
     product.name.toLowerCase().includes(search.toLowerCase())
   );
@@ -72,7 +70,14 @@ function ProductPage() {
       <div className="ProductPage">
         {filteredProducts.length > 0 ? (
           filteredProducts.map((product) => (
-            <div key={product.id} className="productcard">
+            <div
+              key={product.id}
+              className="productcard"
+              onClick={() => {
+                if (product.id === 1) navigate("/ProductOne");
+              }}
+              style={{ cursor: "pointer" }} // optional: make it clear it's clickable
+            >
               <img src={product.image} alt={product.name} />
               <h3>{product.name}</h3>
 

@@ -1,0 +1,25 @@
+ { "Watch" : [{
+    "id": 1,
+    "name": "Classic Leather Watch",
+    "price": 120.00,
+    "description": "A timeless classic leather watch with a minimalist design.",
+    "images": [
+      "https://example.com/images/watch1-1.jpg",
+      "https://example.com/images/watch1-2.jpg",
+      "https://example.com/images/watch1-3.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Sporty Digital Watch",
+    "price": 80.00,
+    "description": "A durable digital watch perfect for sports and outdoor activities.",
+    "images": [
+      "https://example.com/images/watch2-1.jpg",
+      "https://example.com/images/watch2-2.jpg",
+      "https://example.com/images/watch2-3.jpg"
+    ]
+  }
+]
+ }
+ 
